@@ -14,6 +14,15 @@
 		57B968DC21507620000A65AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B968DA21507620000A65AA /* LaunchScreen.storyboard */; };
 		57B968E721507620000A65AA /* GiantbombTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B968E621507620000A65AA /* GiantbombTests.swift */; };
 		57B968F221507620000A65AA /* GiantbombUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B968F121507620000A65AA /* GiantbombUITests.swift */; };
+		57B96900215076FF000A65AA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B968FF215076FF000A65AA /* ResultViewController.swift */; };
+		57B96901215076FF000A65AA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B968FF215076FF000A65AA /* ResultViewController.swift */; };
+		57B96902215076FF000A65AA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B968FF215076FF000A65AA /* ResultViewController.swift */; };
+		57B969082150CE86000A65AA /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B969072150CE85000A65AA /* ImageTableViewCell.swift */; };
+		57B969092150CE86000A65AA /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B969072150CE85000A65AA /* ImageTableViewCell.swift */; };
+		57B9690A2150CE86000A65AA /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B969072150CE85000A65AA /* ImageTableViewCell.swift */; };
+		57B9690C215180BE000A65AA /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B9690B215180BE000A65AA /* DetailedViewController.swift */; };
+		57B9690D215180BE000A65AA /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B9690B215180BE000A65AA /* DetailedViewController.swift */; };
+		57B9690E215180BE000A65AA /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B9690B215180BE000A65AA /* DetailedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,9 @@
 		57B968ED21507620000A65AA /* GiantbombUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiantbombUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B968F121507620000A65AA /* GiantbombUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiantbombUITests.swift; sourceTree = "<group>"; };
 		57B968F321507620000A65AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B968FF215076FF000A65AA /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		57B969072150CE85000A65AA /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		57B9690B215180BE000A65AA /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +111,13 @@
 			children = (
 				57B968D12150761F000A65AA /* AppDelegate.swift */,
 				57B968D32150761F000A65AA /* ViewController.swift */,
+				57B969072150CE85000A65AA /* ImageTableViewCell.swift */,
 				57B968D52150761F000A65AA /* Main.storyboard */,
 				57B968D821507620000A65AA /* Assets.xcassets */,
 				57B968DA21507620000A65AA /* LaunchScreen.storyboard */,
 				57B968DD21507620000A65AA /* Info.plist */,
+				57B968FF215076FF000A65AA /* ResultViewController.swift */,
+				57B9690B215180BE000A65AA /* DetailedViewController.swift */,
 			);
 			path = Giantbomb;
 			sourceTree = "<group>";
@@ -257,7 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				57B968D42150761F000A65AA /* ViewController.swift in Sources */,
+				57B969082150CE86000A65AA /* ImageTableViewCell.swift in Sources */,
+				57B9690C215180BE000A65AA /* DetailedViewController.swift in Sources */,
 				57B968D22150761F000A65AA /* AppDelegate.swift in Sources */,
+				57B96900215076FF000A65AA /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57B969092150CE86000A65AA /* ImageTableViewCell.swift in Sources */,
 				57B968E721507620000A65AA /* GiantbombTests.swift in Sources */,
+				57B9690D215180BE000A65AA /* DetailedViewController.swift in Sources */,
+				57B96901215076FF000A65AA /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57B9690A2150CE86000A65AA /* ImageTableViewCell.swift in Sources */,
 				57B968F221507620000A65AA /* GiantbombUITests.swift in Sources */,
+				57B9690E215180BE000A65AA /* DetailedViewController.swift in Sources */,
+				57B96902215076FF000A65AA /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
